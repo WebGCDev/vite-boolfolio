@@ -1,5 +1,9 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+// import default scss
+import './scss/style.scss';
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap';
 
-createApp(App).mount('#app')
+import App from './App.vue';
+
+createApp(App).mount('#app');
