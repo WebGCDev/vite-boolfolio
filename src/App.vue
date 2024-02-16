@@ -40,7 +40,7 @@ export default {
 </script>
 <template>
   <AppHeader />
-  <AppMain />
+  <AppMain :projects="projects" />
   <AppFooter />
 </template>
 <style scoped></style>

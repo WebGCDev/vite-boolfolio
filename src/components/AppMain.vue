@@ -1,13 +1,19 @@
 <script>
+import ProjectCard from './ProjectCard.vue';
 export default {
   name: 'Main',
+  components: { ProjectCard },
+  props: ['projects'],
 };
 </script>
 <template>
-  <header class="bg-warning">
-    <div class="container d-flex justify-content-between py-2">
-      <div>MAIN</div>
-    </div>
+  <h2 class="text-center">I MIEI PROGETTI</h2>
+  <header class="container">
+    <ul class="row list-unstyled">
+      <li class="col-sm-4 g-4" v-for="project in projects">
+        <ProjectCard :project="project" />
+      </li>
+    </ul>
   </header>
 </template>
 <style scoped></style>
