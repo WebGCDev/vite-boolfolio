@@ -18,7 +18,12 @@ export default {
       <p class="card-text">
         {{ projectContent }}
       </p>
-      <a href="#" class="btn btn-info">MOSTRA ALTRE INFO</a>
+      <router-link
+        class="text-decoration-none"
+        :to="{ name: 'details', params: { slug: project.slug } }"
+      >
+        DETTAGLI
+      </router-link>
     </div>
   </div>
 </template>
