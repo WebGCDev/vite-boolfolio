@@ -5,9 +5,7 @@ export default {
 </script>
 <template>
   <header class="bg-info">
-    <div class="container d-flex justify-content-between py-2">
-      <div>FOOTER</div>
-    </div>
+    <h2 class="text-center">FOOTER</h2>
   </header>
 </template>
 <style scoped></style>

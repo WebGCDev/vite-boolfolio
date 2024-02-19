@@ -18,7 +18,7 @@ export default {
       <p class="card-text">
         {{ projectContent }}
       </p>
-      <a href="#" class="btn btn-info">Mostra altre info</a>
+      <a href="#" class="btn btn-info">MOSTRA ALTRE INFO</a>
     </div>
   </div>
 </template>

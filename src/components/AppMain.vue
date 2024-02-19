@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import ProjectCard from './ProjectCard.vue';
 export default {
   name: 'Main',
@@ -16,4 +16,4 @@ export default {
     </ul>
   </header>
 </template>
-<style scoped></style>
+<style scoped></style> -->

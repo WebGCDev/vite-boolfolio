@@ -1,7 +1,5 @@
 <script>
-import axios from 'axios';
 import AppHeader from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 import { RouterView } from 'vue-router';
 
@@ -18,25 +16,8 @@ export default {
   },
   components: {
     AppHeader,
-    AppMain,
     AppFooter,
     RouterView,
-  },
-  methods: {
-    getProjects() {
-      axios
-        .get(this.baseUrl + this.apiUrls.projects)
-        .then((response) => {
-          console.log(response);
-          this.projects = response.data.data;
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    },
-  },
-  created() {
-    this.getProjects();
   },
 };
 </script>

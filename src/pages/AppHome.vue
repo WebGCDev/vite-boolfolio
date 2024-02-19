@@ -3,5 +3,7 @@ export default {
   name: 'AppHome',
 };
 </script>
-<template></template>
+<template>
+  <h2 class="text-center">HOME</h2>
+</template>
 <style scoped></style>

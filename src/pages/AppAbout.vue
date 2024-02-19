@@ -3,5 +3,7 @@ export default {
   name: 'AppAbout',
 };
 </script>
-<template></template>
+<template>
+  <h2 class="text-center">ABOUT</h2>
+</template>
 <style scoped></style>
