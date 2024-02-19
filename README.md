@@ -15,3 +15,23 @@ Nel componente principale della nostra Vue App facciamo una chiamata API all’e
 Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
 
 Bonus Gestire la paginazione dei risultati
+
+### 16-02-2024
+
+Oggi continuate l'esercizio cominciato ieri - stesse repository - e aggiungete al vostro progetto quanto visto questa mattina a lezione:
+
+Backend
+
+- Rotta API per il dettaglio dei vostri progetti
+
+Frontend
+
+- vue router
+
+- creazione rotte (router.js)
+
+- creazione pagine
+
+- creazione rotta parametrica e pagina di dettaglio del progetto
+
+- navigazione tra le pagine
