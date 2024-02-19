@@ -3,6 +3,7 @@ import axios from 'axios';
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import { RouterView } from 'vue-router';
 
 export default {
   name: 'Project Git',
@@ -19,6 +20,7 @@ export default {
     AppHeader,
     AppMain,
     AppFooter,
+    RouterView,
   },
   methods: {
     getProjects() {
@@ -40,7 +42,7 @@ export default {
 </script>
 <template>
   <AppHeader />
-  <AppMain :projects="projects" />
+  <router-view></router-view>
   <AppFooter />
 </template>
 <style scoped></style>
